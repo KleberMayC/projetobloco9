@@ -23,7 +23,7 @@ const Home = () => {
 
   return (
     <section className="Home">
-      {movies.map(({ movie }) => (
+      {movies.map(( movie ) => (
         <div key={movie.id}>
           <MovieCard movieProp={movie} />
         </div>

@@ -34,29 +34,36 @@
         rgba(0, 0, 0, 0.2) 100%
       );
     }
+  }
 
-    .movie-description {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      background-color: #1d1d1d;
-      padding: 15px;
+  .movie-description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #1d1d1d;
+    padding: 15px;
 
-      h3 {
-        margin: 0;
-        font-size: 1.2rem;
-        color: white;
-      }
+    h3 {
+      margin: 0;
+      font-size: 1.2rem;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .btn-details {
+      display: inline-block;
+      margin-top: 10px;
 
-      .btn-details {
-        display: inline-block;
-        margin-top: 10px;
-        padding: 10 px 24px;
-        color: white;
-        background-color: #0c70f2;
-        border-radius: 5px;
-        text-decoration: none;
+      padding: 10px 20px;
+      color: white;
+      background-color: #0c70f2;
+      border-radius: 5px;
+      text-decoration: none;
+
+      &:hover {
+        background-color: #303030;
       }
     }
   }
